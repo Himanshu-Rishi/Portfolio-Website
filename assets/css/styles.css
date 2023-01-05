@@ -70,6 +70,12 @@
     }
 }
 
+button
+{
+  outline: 0;
+  
+}
+
 /*========== Variables Dark theme ==========*/
 body.dark-theme
 {

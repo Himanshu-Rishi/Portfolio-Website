@@ -211,19 +211,4 @@ themeChanger.addEventListener('click', () => {
 })
 
 /*====================  EMAIL SENDER ====================*/ 
-function sendEmail()
-{
-    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "himanshuskyboy5449@gmail.com",
-        Password: "rishi.123",
-        To: 'himanshuyadav5449@gmail.com',
-        From: document.getElementById('user-email').value,
-        Subject: "New Contact Form Enquiry",
-        Body: "Name: " + document.getElementById('user-name').value+
-            "<br> Email: " + document.getElementById('user-email').value +
-            "<br> Message: " + document.getElementById('user-message').value
-    }).then(
-        message => alert(message)
-    );
-}
+function submitform() { document.getElementById('contact-form').submit(); } 
