@@ -145,6 +145,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 img {
